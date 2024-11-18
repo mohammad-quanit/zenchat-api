@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.hypermode.com/modus.json",
+  "endpoints": {
+    "default": {
+      "type": "graphql",
+      "path": "/graphql",
+      "auth": "bearer-token"
+    }
+  },
+  "connections": {
+    "zenquotes": {
+      "type": "http",
+      "baseUrl": "https://zenquotes.io/"
+    },
+    "api-ninjas": {
+      "type": "http",
+      "baseUrl": "https://api.api-ninjas.com/",
+      "headers": {
+        "X-Api-Key": "PjykN16pTiHaEzr8R0N2ww==lx8ENy4ROKqWgFb2",
+        "Content-Type": "application/json"
+      }
+    },
+    "db-api": {
+      "type": "http",
+      "baseUrl": "https://lwyobyydvdriwaukdbjf.supabase.co/",
+      "headers": {
+        "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3eW9ieXlkdmRyaXdhdWtkYmpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU0ODMzMjYsImV4cCI6MjAyMTA1OTMyNn0.Awi7QbNh9gHf0ahIvl2vge5SphKbzXc4WpcxtYtZssY",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3eW9ieXlkdmRyaXdhdWtkYmpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU0ODMzMjYsImV4cCI6MjAyMTA1OTMyNn0.Awi7QbNh9gHf0ahIvl2vge5SphKbzXc4WpcxtYtZssY",
+        "Content-Type": "application/json"
+      }
+    }
+  },
+  "models": {
+    "text-generator": {
+      "sourceModel": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "provider": "hugging-face",
+      "connection": "hypermode"
+    }
+  }
+}
