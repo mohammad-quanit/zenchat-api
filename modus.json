@@ -20,14 +20,9 @@
         "Content-Type": "application/json"
       }
     },
-    "db-api": {
-      "type": "http",
-      "baseUrl": "https://lwyobyydvdriwaukdbjf.supabase.co/",
-      "headers": {
-        "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3eW9ieXlkdmRyaXdhdWtkYmpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU0ODMzMjYsImV4cCI6MjAyMTA1OTMyNn0.Awi7QbNh9gHf0ahIvl2vge5SphKbzXc4WpcxtYtZssY",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3eW9ieXlkdmRyaXdhdWtkYmpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU0ODMzMjYsImV4cCI6MjAyMTA1OTMyNn0.Awi7QbNh9gHf0ahIvl2vge5SphKbzXc4WpcxtYtZssY",
-        "Content-Type": "application/json"
-      }
+    "db-connection": {
+      "type": "postgresql",
+      "connString": "postgresql://zenchat_owner:dCq5fuPUR9eS@ep-solitary-unit-a4nk78dy.us-east-1.aws.neon.tech/zenchat?sslmode=require"
     }
   },
   "models": {

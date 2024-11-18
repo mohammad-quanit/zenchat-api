@@ -2,7 +2,10 @@ module github.com/mohammad-quanit
 
 go 1.23.0
 
-require github.com/hypermodeinc/modus/sdk/go v0.13.1
+require (
+	github.com/google/uuid v1.6.0
+	github.com/hypermodeinc/modus/sdk/go v0.13.1
+)
 
 require (
 	github.com/tidwall/gjson v1.18.0 // indirect
