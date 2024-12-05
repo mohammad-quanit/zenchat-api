@@ -16,13 +16,13 @@
       "type": "http",
       "baseUrl": "https://api.api-ninjas.com/",
       "headers": {
-        "X-Api-Key": "PjykN16pTiHaEzr8R0N2ww==lx8ENy4ROKqWgFb2",
+        "X-Api-Key": "*****************",
         "Content-Type": "application/json"
       }
     },
     "db-connection": {
       "type": "postgresql",
-      "connString": "postgresql://zenchat_owner:dCq5fuPUR9eS@ep-solitary-unit-a4nk78dy.us-east-1.aws.neon.tech/zenchat?sslmode=require"
+      "connString": "postgresql://**********:*******@ep-solitary-unit-#####.us-east-1.aws.neon.tech/zenchat?sslmode=require"
     }
   },
   "models": {
